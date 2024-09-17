@@ -1,0 +1,47 @@
+body {
+    line-height: 1;
+    color: black;
+    background: black;
+    font-family: Lucida Grande, trebuchet ms, verdana, arial, helvetica, sans-serif;
+}
+
+#viewport {
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+
+#viewport.mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#viewport.tablet {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#viewport.desktop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#content {
+    position: absolute;
+    width: 550px;
+    height: 430px;
+    left: 50%;
+    top: 100px;
+    margin-left: -275px;
+}
+
+canvas {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
